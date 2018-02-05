@@ -103,9 +103,9 @@ h1 {
 	font-size: 1.8rem;
 }
 
-span {
+/*span {
   color: red;
-}
+}*/
 
 /*.row {
 	margin-top: 50px;
@@ -123,13 +123,28 @@ span {
 }
 
 .nav-pager {
-	transform: translateX(41.5%);
+  transform: translateX(41.5%);
   margin-top: 40px;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
-.page-link {
-	color: red;
+.pagination > li > a, .pagination > li >span {
+	color: #b5b3b3;
+}
+
+.page-item.active .page-link {
+	background: #fff;
+	border: 1px solid #ddd;
+	color: #d42819;
+}
+
+.page-link span {
+	color: #b5b3b3;
+}
+
+footer p {
+	text-align: right;
 }
 
 @media only screen and (max-width : 990px) {
