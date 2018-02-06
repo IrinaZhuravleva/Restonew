@@ -60,10 +60,10 @@ header {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.navbar-brand {
-		padding-right: 10px;
-	}
-
+  .navbar-brand {
+	padding-right: 10px;
+  }
+  
 /*/  эти правила должны работать на маленьких девайсах - здесь надо убрать складывание меню/*/
 
   .navbar-brand img {
@@ -198,6 +198,12 @@ footer p {
 
 /*я добавила*/
 @media only screen and (max-width : 575px) {
+
+	.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+  	padding-right: 30px;
+  	padding-left: 30px;
+  }
+  
 	.card {
 		text-align: center;
 	}
