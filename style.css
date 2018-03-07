@@ -1,0 +1,74 @@
+body {
+	font-size: 16px;
+	font-family: "Aleo-Regular", Times, serif;
+	line-height: 15px;
+
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.menu-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+.catalog-list {
+	display: flex;
+  justify-content: space-around;
+
+  list-style: none;
+}
+
+.catalog-item {
+	/*color: gray;*/
+}
+
+.catalog-title {
+	display: flex;
+  justify-content: space-between;
+
+  color: #555555;
+}
+
+.gallery-container {
+	display: flex;
+}
+
+.gallery-big {
+  width: 366px;
+}
+
+.gallery-small {
+	display: flex;
+	flex-wrap: wrap;
+	width: 734px;
+}
+
+
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 190px;
+
+  color: white;
+	background-color: #3b3b3b;
+}
