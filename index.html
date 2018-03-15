@@ -36,16 +36,21 @@
         <div class="logo-presenter_container container">
       		<h1 class="visually-hidden">Resto</h1>
       		<img src="img/this-template-is-awesome.png" width="776" height="117" alt="This template is awesome">
-          <img src="img/resto-template.png" width="348" height="15" alt="The Resto template">
+          <div class="template-lines"><img src="img/resto-template.png" width="348" height="15" alt="The Resto template">
+          </div>
         </div>
   		</section>
       <section class="menu container">
-        <p>The Menu</p>
+        <div class="the-menu">
+          <div class="arrow">
+            <p>The Menu</p>
+          </div>
+        </div>
         <div class="menu-container">
       		<div class="menu_column menu-left">
       			<table class="menu_column menu-left">
               <tr>
-                <td>Voluptate cillum fugiat.</td>
+                <td><span>Voluptate cillum fugiat.</span></td>
                 <td>$50</td>
               </tr>
               <tr>
@@ -53,7 +58,7 @@
                 <td></td>
               </tr>
               <tr>
-                <td>Metus varius laoreet.</td>
+                <td><span>Metus varius laoreet.</span></td>
                 <td>$62</td>
               </tr>
               <tr>
@@ -61,7 +66,7 @@
                 <td></td>
               </tr>
               <tr>
-                <td>Donec sodales magna.</td>
+                <td><span>Donec sodales magna.</span></td>
                 <td>$25</td>
               </tr>
               <tr>
@@ -69,7 +74,7 @@
                 <td></td>
               </tr>
               <tr>
-                <td>Saugue velit cursus.</td>
+                <td><span>Saugue velit cursus.</span></td>
                 <td>$30</td>
               </tr>
               <tr>
@@ -82,31 +87,34 @@
            <div class="menu_column menu-right">
       			<table class="menu_column menu-right">
               <tr>
-                <td>Arcu pede enim justo.</td>
+                <td><span>Arcu pede enim justo.</span></td>
                 <td>$45</td>
               </tr>
               <tr>
                 <td>Tuna, Sweetcorn, Cheese.</td>
                 <td></td>
               </tr>
+              
               <tr>
-                <td>Cras dapibussemper nisi.</td>
+                <td><span>Cras dapibussemper nisi.</span></td>
                 <td>$32</td>
               </tr>
               <tr>
                 <td>Pineapple, Minced Beef, Cheese.</td>
                 <td></td>
               </tr>
+              
               <tr>
-                <td>Quam semper libero.</td>
+                <td><span>Quam semper libero.</span></td>
                 <td>$15</td>
               </tr>
               <tr>
                 <td>Cheese, tomato, mushrooms, onions.</td>
                 <td></td>
               </tr>
+             
               <tr>
-                <td>Nam eget dui Etiam.</td>
+                <td><span>Nam eget dui Etiam.</span></td>
                 <td>$35</td>
               </tr>
               <tr>
@@ -116,7 +124,10 @@
             </table>
           </div>
         </div>
-        <a href="" class="load"><p>Load more</p></a>
+        <div class="load">
+          <a href="#">load more</a>
+        </div>
+        
       </section>
 
       <section class="featured-dishes container">
@@ -127,35 +138,35 @@
               <img src="img/layer-4.png" width="230" height="200" alt="Fugiat nulla sint">
             </p>
             <h3 class="catalog-title">
-              <span class="catalog-category">Fugiat nulla sint</span>
+              <span class="catalog-category first-stars">Fugiat nulla sint</span>
               <span class="catalog-item-price">$30</span>
             </h3>
   	      </li>
           <li class="catalog-item">
   	        <p class="catalog-item-image">
-              <img src="img/layer-5.png" width="230" height="200" alt="Fugiat nulla sint">
+              <img src="img/layer-5.png" width="230" height="200" alt="Daute irure dolor">
             </p>
             <h3 class="catalog-title">
-              <span class="catalog-category">Daute irure dolor</span>
+              <span class="catalog-category second-stars">Daute irure dolor</span>
               <span class="catalog-item-price">$24</span>
             </h3>
   	      </li>
   	      <li class="catalog-item">
   	        <p class="catalog-item-image">
-              <img src="img/layer-2.png" width="230" height="200" alt="Fugiat nulla sint">
+              <img src="img/layer-2.png" width="230" height="200" alt="Officia deserunt mollit">
             </p>
             <h3 class="catalog-title">
-              <span class="catalog-category">Officia deserunt mollit</span>
+              <span class="catalog-category third-stars">Officia deserunt mollit</span>
               <span class="catalog-item-price">$60</span>
             </h3>
   	      </li>
 
   	      <li class="catalog-item">
   	        <p class="catalog-item-image">
-              <img src="img/layer-3.png" width="230" height="200" alt="Fugiat nulla sint">
+              <img src="img/layer-3.png" width="230" height="200" alt="Pim minim veniam">
             </p>
             <h3 class="catalog-title">
-              <span class="catalog-category">Pim minim veniam</span>
+              <span class="catalog-category first-stars">Pim minim veniam</span>
               <span class="catalog-item-price">$17</span>
             </h3>
   	      </li>
@@ -181,15 +192,20 @@
     <footer class="main-footer">
       <div class="footer container">
       	<div class="address">
-      		<h4>New York Restaurant</h4>
-          <p>3926 Anmoore Road<br>New York, NY 10014</p>
-          <h4>718-749-1714</h4>
+      		<strong>New York Restaurant</strong>
+          <p>3926 Anmoore Road</p>
+          <p>New York, NY 10014</p>
+          <strong>718-749-1714</strong>
       	</div>
       	<div class="address">
-          <h4>France Restaurant</h4>
-          <p>68, rue  de la Couronne<br>75002 PARIS<h4>02.94.23.69.56</h4>
+          <strong>France Restaurant</strong>
+          <p>68, rue  de la Couronne</p>
+          <p>75002 PARIS</p>
+          <strong>02.94.23.69.56</strong>
+          <!-- <h4>France Restaurant</h4>
+          <p>68, rue  de la Couronne< -->
       	</div>
-      	<div>
+      	<div class="contacts">
       		<ul>
       		  <li><a href="">Blog</a></li>
       		  <li><a href="">Careers</a></li>
@@ -197,9 +213,9 @@
       		  <li><a href="">Contact</a></li>
           </ul>
       	</div>
-      	<div>
+      	<div class="copyright">
       		<img src="img/logo-footer.png"  width="81" height="30" alt="Resto">
-      		<p>© All Rights Reserved 2014.<br>Find  More at <a href="">Pixelhint.com</a></p>
+      		<p>© All Rights Reserved 2014.<br>Find  More at <a href=""><strong>Pixelhint.com</strong></a></p>
       	</div>
     </footer>
    </div>
